@@ -30,6 +30,7 @@ module.exports = {
   plugins: [new webpack.HotModuleReplacementPlugin()],
   devServer: {
     contentBase: "./public",
+    historyApiFallback: true,
     hot: true
   },
   devtool: "source-map"
