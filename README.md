@@ -1,2 +1,2 @@
 # React Events
-React events project
+React-based events project
